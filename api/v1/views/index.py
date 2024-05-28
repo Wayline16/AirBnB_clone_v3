@@ -16,8 +16,7 @@ def api_status():
 
 @app_views.route('/stats')
 def get_stats():
-    """
-    get_stats
+    """    get_stats
     """
     stats = {
         'amenities': storage.count('Amenity'),
